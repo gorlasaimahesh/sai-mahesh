@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int i,x,p,r=0;
+char s;
+print("enter the price and discount");
+scanf("%d%c%d",&x,&c,&p);
+static i=x;
+while(x>=1)
+{
+r=r+x;
+x=x*p/100;
+}
+printf("the amount to be spent for free coffee is %d",r);
+return 0;
+}
