@@ -7,7 +7,7 @@ char s;
 print("enter the price and discount");
 scanf("%d%c%d",&x,&c,&p);
 static i=x;
-while(x>=1)
+while(x>=1&&x<=1000&&p>=1&&p<=100)
 {
 r=r+x;
 x=x*p/100;
